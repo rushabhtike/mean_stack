@@ -1,6 +1,10 @@
+//import * as chai from 'chai';
 import * as chai from 'chai';
+import chaiHttp = require('chai-http');
+import 'mocha';
+
+
 import { describe, it } from 'mocha';
-import chaiHttp from 'chai-http'
 
 process.env.NODE_ENV = 'test';
 import { app } from '../../../server/app';
